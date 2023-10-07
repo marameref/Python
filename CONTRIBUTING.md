@@ -187,3 +187,60 @@ We want your work to be readable by others; therefore, we encourage you to note 
   - Happy coding!
 
 Writer [@poyea](https://github.com/poyea), Jun 2019.
+
+
+To add checkboxes to a CONTRIBUTING.md file on GitHub, you can use a combination of Markdown syntax and some special characters ie " [ ] " and " X ".
+This is commonly done to create task lists for contributors. Here's a step-by-step guide that's beginner-friendly:
+
+Step 1: Create or Edit the CONTRIBUTING.md File
+
+If you don't have a CONTRIBUTING.md file in your GitHub repository, you can create one. If it already exists, go ahead and edit it.
+Step 2: Open the File in GitHub
+
+Navigate to your GitHub repository.
+Click on the CONTRIBUTING.md file to open it for editing.
+Step 3: Add a Task List
+
+In your CONTRIBUTING.md file, create a list where each item represents a task.
+Use the square brackets [ ] before each task in the list to indicate an empty checkbox and [x] to indicate a checked checkbox.
+Here's an example:
+
+### Contribution Guidelines
+
+- [ ] Read the [Code of Conduct](CODE_OF_CONDUCT.md).
+- [ ] Fork the repository.
+- [ ] Clone the repository to your local machine.
+- [ ] Create a new branch for your changes.
+- [ ] Make your changes and commit them.
+- [ ] Push your changes to your forked repository.
+- [ ] Create a pull request.
+- [ ] Review and address feedback from maintainers.
+- [ ] Your pull request is merged! 🎉
+Step 4: Insert "X" into the brackets"[ ]" to make it look like this "[X]"
+
+ Read the Code of Conduct.
+ Fork the repository.
+ Clone the repository to your local machine.
+ Create a new branch for your changes.
+ Make your changes and commit them.
+ Push your changes to your forked repository.
+The marked down square brackets indicates the task has been completed and (probably) ready for a review
+Step 4: Preview the Task List
+
+Preview the marked down list by toggling between the "Write" section and the "Preview" section to see if there any errors - - You may need to correct before you commit the changes. If there are errors in the appearance of your markdown, it is often due to too many spaces between the markdown "X" and the square brackets eg [ X] or [X ]
+If that is the case go back to the "Write" section an correct your markdown to look like this [X] then preview again.
+When you are satisfied with the result then;
+Step 6: Commit Your Changes
+
+Scroll down to the bottom of the page.
+You'll see a section to add a commit message.
+Enter a commit message like "Added contribution" or something descriptive of the given task.
+Click the "Commit changes" button.
+Step 6: Verify the Checkbox Rendering
+
+After committing the changes, you should see checkboxes in your CONTRIBUTING.md file in your repository.
+Empty checkboxes [ ] will be displayed as unchecked, and checked checkboxes [x] will appear checked.
+That's it! You've successfully added checkboxes to your CONTRIBUTING.md file on GitHub. This makes it easy for contributors to track their progress as they complete tasks.
+
+Contributor [@marameref](https://github.com/marameref), Oct 2023.
+
